@@ -1,10 +1,10 @@
-<!-- This README.md was partially written with the help of chatgpt where I provided bulletpoints and it structured it into the following text. -->
+The thesis pdf can be accessed via https://utheses.univie.ac.at/detail/73129/
 
 # Reinforcement Learning Agents Parallel Training and Subset Selection
 
 This repository contains scripts for training RL agents in parallel across two GPUs, calculating random agent performance, and identifying the best subsets of environments for efficient multi-benchmark testing. The research and experiments performed here are part of my thesis on reinforcement learning benchmark generalization. 
 
-The thesis pdf document can be accessed via https://utheses.univie.ac.at/detail/73129/
+
 
 ## File Descriptions
 
