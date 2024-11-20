@@ -1,0 +1,12 @@
+{'InvertedDoublePendulum': 57.76, 
+'dm_control/cheetah-run': 3.68, 
+'Ant': -55.28, 
+'dm_control/finger-spin': 0.51, 
+'HalfCheetah': -283.17, 
+'Reacher': -41.79, 
+'Walker2d': 2.81, 
+'dm_control/ball_in_cup-catch': 418.45,
+'InvertedPendulum': 6.06, 
+'dm_control/reacher-easy': 69.87, 
+'dm_control/cartpole-swingup': 26.87, 
+'Hopper': 17.86}

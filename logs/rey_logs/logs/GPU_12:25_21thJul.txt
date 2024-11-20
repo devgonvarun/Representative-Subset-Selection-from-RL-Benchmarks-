@@ -1,0 +1,4 @@
+GPU 0: dm_control/hopper-stand #111 RecurrentPPO Running      12:25_21thJul
+GPU 1: dm_control/hopper-stand #222 RecurrentPPO Running      12:25_21thJul
+GPU 1: dm_control/hopper-stand #222 RecurrentPPO Finished     13:54_21thJul
+GPU 0: dm_control/hopper-stand #111 RecurrentPPO Finished     13:55_21thJul

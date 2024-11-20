@@ -1,0 +1,39 @@
+Environments,Benchmark,Action Space,Base,Reference,My PPO,A2C,TRPO,R-PPO,PPO,CURL,Dreamer
+Alien,Atari_100k,Discrete,227.8,2364.5,413.25,615,179.75,301.5,276,558.2,1118
+Amidar,Atari_100k,Discrete,5.8,1266,129.08,136.3,54.35,74.12,26,142.1,97
+Assault,Atari_100k,Discrete,222.4,8051.6,1267.9,1571.4,352.8,670.42,327,600.6,683
+Asterix,Atari_100k,Discrete,210,7110,1090,1911.25,338.75,681.25,292,734.5,1062
+Bank Heist,Atari_100k,Discrete,14.2,1284.5,44.75,27,13.75,22,14,131.6,398
+Battle Zone,Atari_100k,Discrete,2360,32600,17075,2625,3575,14050,2233,14870,20300
+Boxing,Atari_100k,Discrete,0.1,96.9,4.6,-29.88,-27.35,-23.7,3,1.2,82
+Breakout,Atari_100k,Discrete,1.7,446.35,25.1,209.32,1.92,26.92,3,4.9,10
+Chopper Command,Atari_100k,Discrete,811,13005,1372.5,1060,867.5,885,1005,1058.5,2222
+Crazy Climber,Atari_100k,Discrete,10780.5,124845,47247.5,91152.5,4745,53312.5,14675,12146.5,86225
+Demon Attack,Atari_100k,Discrete,152.1,41902.5,1177.25,5013.38,338,2090.75,160,817.6,577
+Freeway,Atari_100k,Discrete,0,33,22.32,0,20.92,22.85,2,26.7,0
+Frostbite,Atari_100k,Discrete,65.2,2676.5,250.75,278.25,261.5,252.75,127,1181.3,3377
+Gopher,Atari_100k,Discrete,257.6,8510,442,832,147.5,486,368,669.3,2160
+Hero,Atari_100k,Discrete,1027,35119,5002.88,4729,503,4997.12,2596,6279.3,13354
+Jamesbond,Atari_100k,Discrete,29,1145,477.5,33.75,8.75,300,41,471,540
+Kangaroo,Atari_100k,Discrete,52,11485,500,30,15,115,55,872.5,2643
+Krull,Atari_100k,Discrete,1598,13216.5,1271.5,7271.25,1959.5,1001.5,3222,4229.6,8171
+Kung Fu Master,Atari_100k,Discrete,258.5,40060,8925,13097.5,11755,9375,2090,14307.8,25900
+Ms Pacman,Atari_100k,Discrete,307.3,2646,491.25,906.25,331.25,360.75,366,1465.5,1521
+Pong,Atari_100k,Discrete,-20.7,21,2.17,-3.12,-20.85,-14.82,-20,-16.5,-4
+Private Eye,Atari_100k,Discrete,24.9,105.1,47.5,-17.5,-85,-89.6,100,218.4,3238
+Qbert,Atari_100k,Discrete,163.9,17148.75,644.38,1267.5,481.25,475.62,317,1042.4,2921
+Road Runner,Atari_100k,Discrete,11.5,42895,10862.5,14950,972.5,6957.5,602,5661,19230
+Seaquest,Atari_100k,Discrete,68.4,1874,839,861.5,309.5,720.5,305,384.5,962
+Up N Down,Atari_100k,Discrete,533.4,282679.5,4679.5,2492.25,682,3245.25,1502,2955.2,46910
+Ball in cup catch,DMC_1m,Continuous,421.37,736.6,449.2,147.62,787.48,0,829,970,972
+Cartpole balance,DMC_1m,Continuous,355.11,999.94,999.79,500.76,916.33,139.48,516,980,993
+Cartpole balance sparse,DMC_1m,Continuous,48.34,1000,1000,55.92,1000,17.8,881,999,964
+Cartpole swingup,DMC_1m,Continuous,27.05,466.15,269.57,144.51,866.18,97.82,290,771,861
+Cartpole swingup sparse,DMC_1m,Continuous,0,201.1,199.2,0,243.2,0,1,373,759
+Cheetah run,DMC_1m,Continuous,3.69,366.96,277.22,109.16,272.25,247.72,95,502,836
+Finger spin,DMC_1m,Continuous,0.52,398.85,198.48,136.85,425.4,1.32,118,880,589
+Hopper hop,DMC_1m,Continuous,0.11,39.62,1.22,0.37,28.46,0.32,0,164,227
+Hopper stand,DMC_1m,Continuous,4.76,526.23,45.29,35.91,70.19,3.49,4,777,903
+Pendulum swingup,DMC_1m,Continuous,0,749.9,775.95,25,401,10.25,1,413,744
+Reacher easy,DMC_1m,Continuous,68.7,420.2,64.5,50.62,150.88,106.4,487,689,951
+Reacher hard,DMC_1m,Continuous,11.24,974.1,899.68,4.85,10.52,8.28,94,472,862

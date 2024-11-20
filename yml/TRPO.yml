@@ -1,0 +1,77 @@
+#Source: https://github.com/DLR-RM/rl-baselines3-zoo/blob/master/hyperparams/trpo.yml
+
+# Tuned
+Ant: &mujoco-defaults
+  normalize_advantage: true
+  batch_size: 128
+  n_steps: 1024
+  gamma: 0.99
+  gae_lambda: 0.95
+  sub_sampling_factor: 1
+  cg_max_steps: 25
+  cg_damping: 0.1
+  n_critic_updates: 20
+  learning_rate: !!float 1e-3
+
+HalfCheetah:
+  <<: *mujoco-defaults
+  target_kl: 0.04
+
+dm_control/cheetah-run:
+  <<: *mujoco-defaults
+  target_kl: 0.04
+
+Hopper:
+  <<: *mujoco-defaults
+
+dm_control/hopper-hop:
+  <<: *mujoco-defaults
+
+dm_control/hopper-stand:
+  <<: *mujoco-defaults
+
+
+InvertedDoublePendulum:
+  <<: *mujoco-defaults
+
+
+InvertedPendulum:
+  <<: *mujoco-defaults
+
+dm_control/pendulum-swingup:
+  <<: *mujoco-defaults
+
+
+dm_control/finger-spin:
+  <<: *mujoco-defaults
+
+
+dm_control/cartpole-swingup:
+  <<: *mujoco-defaults
+
+dm_control/cartpole-swingup_sparse:
+  <<: *mujoco-defaults
+
+dm_control/cartpole-balance:
+  <<: *mujoco-defaults
+
+dm_control/cartpole-balance_sparse:
+  <<: *mujoco-defaults
+
+
+Reacher:
+  <<: *mujoco-defaults
+
+dm_control/reacher-easy:
+  <<: *mujoco-defaults
+
+dm_control/reacher-hard:
+  <<: *mujoco-defaults
+
+
+dm_control/ball_in_cup-catch:
+  <<: *mujoco-defaults
+
+
+
+

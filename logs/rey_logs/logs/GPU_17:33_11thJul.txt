@@ -1,0 +1,4 @@
+GPU 0: BattleZoneNoFrameskip #111 TRPO Running      17:33_11thJul
+GPU 1: BattleZoneNoFrameskip #333 TRPO Running      17:33_11thJul
+GPU 1: BattleZoneNoFrameskip #333 TRPO Finished     18:10_11thJul
+GPU 0: BattleZoneNoFrameskip #111 TRPO Finished     18:11_11thJul
