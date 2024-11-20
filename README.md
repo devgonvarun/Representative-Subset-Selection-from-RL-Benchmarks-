@@ -3,11 +3,11 @@
 This repository contains scripts for training RL agents in parallel across two GPUs, calculating random agent performance, and identifying the best subsets of environments for efficient multi-benchmark testing. The research and experiments performed here are part of my thesis on reinforcement learning benchmark generalization. https://utheses.univie.ac.at/detail/73129/
 
 ## Summary
-▪ Extension to paper "Atari-5: Distilling the Arcade Learning Environment down to Five Games".
-▪ Developed a new normalisation technique for multi-benchmark score comparisons that uses a random agent as a base and PPO agent at convergence as reference followed by a log transformation.
-▪ Parallelised GPU trainings of 760 RL agents from 38 Atari100k + DMC1m games benchmark.
-▪ Parallelised 8436 Regression models from game subsets to predict benchmark summary scores.
-▪ Best model of subset size 3 (Ms. Pacman, Ball in Cup Catch und Pendulum Swingup) selected based on the least CV MSE had 6.59% relative error relative to the full benchmark summary score at only 7.9% computational cost.
+- Extension to paper "Atari-5: Distilling the Arcade Learning Environment down to Five Games".
+- Developed a new normalisation technique for multi-benchmark score comparisons that uses a random agent as a base and PPO agent at convergence as reference followed by a log transformation.
+- Parallelised GPU trainings of 760 RL agents from 38 Atari100k + DMC1m games benchmark.
+- Parallelised 8436 Regression models from game subsets to predict benchmark summary scores.
+- Best model of subset size 3 (Ms. Pacman, Ball in Cup Catch und Pendulum Swingup) selected based on the least CV MSE had 6.59% relative error relative to the full benchmark summary score at only 7.9% computational cost.
 
 ## File Descriptions
 
